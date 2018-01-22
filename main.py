@@ -8,7 +8,6 @@ import time
 localtime = time.asctime(time.localtime(time.time()))
 
 send_mail_time = time.strftime("%H%M", time.localtime())
-print(send_mail_time)
 
 mail_time = ['0900','1200','1500','1900','2400']
 
