@@ -69,7 +69,7 @@ def check_redirect():
         print(localtime + "  redirect success")
         
         if send_mail_time in mail_time:
-            send_mail("Redirect Check Status 'ok' ", "Check Redirect status is ok !" + "\n" localtime + "\n\n" + res_redirect.text)
+            send_mail("Redirect Check Status 'ok' ", "Check Redirect status is ok !" + "\n" + localtime + "\n\n" + res_redirect.text)
         else:
             pass
         
